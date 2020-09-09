@@ -24,6 +24,7 @@
     "editor.tabSize": 2,
     "editor.parameterHints.enabled": true,
     "editor.fontLigatures": false,
-    "autoimport.filesToScan": "**/*.{js, jsx, ts, tsx}"
+    "autoimport.filesToScan": "**/*.{js, jsx, ts, tsx}",
+    "launch": {}
   }
 }
