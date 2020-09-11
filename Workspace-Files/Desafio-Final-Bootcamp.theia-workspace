@@ -11,6 +11,9 @@
       },
       {
          "path": "file:///workspace/grades-app"
+      },
+      {
+         "path": "file:///workspace/aula-desafio-4"
       }
    ],
    "settings": {
