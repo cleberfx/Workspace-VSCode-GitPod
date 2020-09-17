@@ -9,8 +9,8 @@ RUN apt-get update && apt-get install -y \
   sudo \
   git-flow \
   graphviz \
-  && curl -s "https://get.sdkman.io" | bash \
-  && source "$HOME/.sdkman/bin/sdkman-init.sh" \
+  && sdk install scala \
+  && sdk install spark \
   && apt-get clean && rm -rf /var/cache/apt/* && rm -rf /var/lib/apt/lists/* && rm -rf /tmp/*
 
 USER gitpod  
@@ -21,8 +21,6 @@ RUN  curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
 
 RUN bash -c "npm install -g generator-jhipster \
     && npm install -g generator-jhipster-nodejs \
-	&& npm install -g @angular/cli \
-    && sdk install scala \
-    && sdk install spark" 
+	&& npm install -g @angular/cli" 
 
 # More information: https://www.gitpod.io/docs/config-docker/
