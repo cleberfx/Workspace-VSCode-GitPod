@@ -11,11 +11,11 @@ RUN apt-get update && apt-get install -y \
   graphviz \
   && apt-get clean && rm -rf /var/cache/apt/* && rm -rf /var/lib/apt/lists/* && rm -rf /tmp/*
   
-  RUN sdk install scala \
-  spark
+  
 
 USER gitpod  
 
+RUN sdk install scala 2.12.10
 RUN  curl -fsSL https://code-server.dev/install.sh | sh -s -- --dry-run 
 RUN  curl -fsSL https://code-server.dev/install.sh | sh 
 RUN  curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
