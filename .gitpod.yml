@@ -11,8 +11,8 @@ tasks:
   # - command: code-server --user-data-dir data --auth none
   # mongoimport --host cluster0-shard-00-02.aba5z.mongodb.net:27017 --db student --collection grade --type csv --file grades.csv --headerline --authenticationDatabase admin --ssl --username dbUser --password dbUserPass
   - command: mongo "mongodb+srv://cluster0.aba5z.mongodb.net/student" --username dbUser --password dbUserPass
-  - command: sdk install java 20.0.0.r11-grl
-  - command: sdk use java 20.0.0.r11-grl
+  # - command: sdk install java 20.0.0.r11-grl
+  # - command: sdk use java 20.0.0.r11-grl
 
 vscode:
   extensions:
