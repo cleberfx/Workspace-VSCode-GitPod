@@ -9,6 +9,8 @@ RUN apt-get update && apt-get install -y \
   sudo \
   git-flow \
   graphviz \
+  && curl -s "https://get.sdkman.io" | bash \
+  &% source "$HOME/.sdkman/bin/sdkman-init.sh" \
   && apt-get clean && rm -rf /var/cache/apt/* && rm -rf /var/lib/apt/lists/* && rm -rf /tmp/*
 
 USER gitpod  
