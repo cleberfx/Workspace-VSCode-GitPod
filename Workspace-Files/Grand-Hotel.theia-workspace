@@ -1,0 +1,21 @@
+{
+   "folders": [
+      {
+         "path": "file:///workspace/Workspace-VSCode-GitPod"
+      }
+   ],
+   "settings": {"prettier.singleQuote": true,
+    "editor.formatOnSave": true,
+    "editor.autoSave": "off",
+    "emmet.syntaxProfiles": {
+      "javascript": "jsx"
+    },
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+    // "editor.renderWhitespace": "all",
+    "editor.rulers": [80, 120],
+    "editor.tabSize": 2,
+    "editor.parameterHints.enabled": true,
+    "editor.fontLigatures": false}
+}
