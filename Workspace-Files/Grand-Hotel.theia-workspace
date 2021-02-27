@@ -1,8 +1,6 @@
 {
    "folders": [
-      {
-         "path": "file:///workspace/Workspace-VSCode-GitPod"
-      }
+     
    ],
    "settings": {"prettier.singleQuote": true,
     "editor.formatOnSave": true,
