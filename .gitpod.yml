@@ -39,3 +39,5 @@ vscode:
     - vscjava.vscode-spring-initializr@0.6.1:+iIlEj4nqfpqeIpisVYU6g==
     - vscjava.vscode-spring-boot-dashboard@0.2.0:qjoUjsBMX4msxil1rg0vMA==
     - pivotal.vscode-spring-boot@1.24.0:OTueaV6r/33nqwmew2TbJg==
+    - shan.code-settings-sync@3.4.3:lADxYq3EKc+4gqNNppMuiQ==
+    - nonoroazoro.syncing@3.1.0:thBCyELzfBYHIOilqE1veg==
