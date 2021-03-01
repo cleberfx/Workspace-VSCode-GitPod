@@ -1,0 +1,11 @@
+2021.03.01 05:32:19 INFO  started: Metals version 0.9.3 in workspace '/workspace/Workspace-VSCode-GitPod' for client vscode.
+2021.03.01 05:32:21 INFO  time: initialize in 1.88s
+2021.03.01 05:32:22 WARN  no build tool detected in workspace '/workspace/Workspace-VSCode-GitPod'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Mar 01, 2021 5:33:13 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Mar 01, 2021 5:33:13 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Mar 01, 2021 5:33:40 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Mar 01, 2021 5:34:33 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification

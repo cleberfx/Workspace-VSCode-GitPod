@@ -36,3 +36,6 @@ vscode:
     - scalameta.metals@1.9.3:Ul5QiWDI6XaZcygyT9BSCg==
     - pivotal.vscode-boot-dev-pack@0.0.9:0G6FMi7mZebwkjjmMnenyw==
     - vscjava.vscode-maven@0.21.2:tFEkt2FqLujaNTLU5AmRiQ==
+    - vscjava.vscode-spring-initializr@0.6.1:+iIlEj4nqfpqeIpisVYU6g==
+    - vscjava.vscode-spring-boot-dashboard@0.2.0:qjoUjsBMX4msxil1rg0vMA==
+    - pivotal.vscode-spring-boot@1.24.0:OTueaV6r/33nqwmew2TbJg==
