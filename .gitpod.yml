@@ -13,12 +13,12 @@ tasks:
   # mongoimport --host cluster0-shard-00-02.aba5z.mongodb.net:27017 --db student --collection grade --type csv --file grades.csv --headerline --authenticationDatabase admin --ssl --username dbUser --password dbUserPass
   - command: mongo "mongodb+srv://cluster0.aba5z.mongodb.net/student" --username dbUser --password dbUserPass
   - command: sdk install -y java 20.0.0.r11-grl
-  #- command: sdk d java 20.0.0.r11-grl
+#- command: sdk d java 20.0.0.r11-grl
   - command: sdk install -y scala 2.12.12
   - command: sdk install -y spark 2.4.6
   - command: sdk install -y sbt 1.3.9
-  
-  
+
+
 
 vscode:
   extensions:
@@ -34,3 +34,5 @@ vscode:
     - redhat.vscode-quarkus@1.6.0:L1WGCvkSZeXbqk0esLq6mQ==
     - scala-lang.scala@0.4.3:4toR7IuVtVqB/cqkVaTgZg==
     - scalameta.metals@1.9.3:Ul5QiWDI6XaZcygyT9BSCg==
+    - pivotal.vscode-boot-dev-pack@0.0.9:0G6FMi7mZebwkjjmMnenyw==
+    - vscjava.vscode-maven@0.21.2:tFEkt2FqLujaNTLU5AmRiQ==
