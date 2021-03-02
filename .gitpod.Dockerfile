@@ -11,7 +11,8 @@ RUN apt-get update && apt-get install -y \
   graphviz \
   && apt-get clean && rm -rf /var/cache/apt/* && rm -rf /var/lib/apt/lists/* && rm -rf /tmp/*
   
-  
+RUN iptables -A INPUT -p tcp --dport 4000 -j ACCEPT
+RUN iptables -A INPUT -p tcp --dport 22 -j ACCEPT
 
 USER gitpod  
 
