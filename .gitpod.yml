@@ -5,7 +5,9 @@ image:
 ports:
   - port: 3000
     onOpen: open-preview
-  - port: 22  
+  - port: 22 
+  - port: 2222
+  - port: 4000 
 
 # List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/config-start-tasks/
 tasks:
