@@ -12,8 +12,9 @@ RUN apt-get update && apt-get install -y \
   iptables \
   && apt-get clean && rm -rf /var/cache/apt/* && rm -rf /var/lib/apt/lists/* && rm -rf /tmp/*
   
-RUN iptables -A INPUT -p tcp --dport 4000 -j ACCEPT
-RUN iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+RUN ufw allow 22/tcp
+RUN ufw allow 2222/tcp
+RUN ufw allow 4000/tcp
 
 USER gitpod  
 
