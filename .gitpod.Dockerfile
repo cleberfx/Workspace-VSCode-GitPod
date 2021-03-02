@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y \
   sudo \
   git-flow \
   graphviz \
-  #iptables \
+  iptables \
   ufw \
   net-tools \
   && apt-get clean && rm -rf /var/cache/apt/* && rm -rf /var/lib/apt/lists/* && rm -rf /tmp/*
