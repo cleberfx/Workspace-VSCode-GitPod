@@ -25,6 +25,7 @@ RUN  curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
 
 RUN bash -c "npm install -g generator-jhipster \
     && npm install -g generator-jhipster-nodejs \
-	&& npm install -g @angular/cli" 
+	&& npm install -g @angular/cli \
+	&& code-server --auth none"
 
 # More information: https://www.gitpod.io/docs/config-docker/
