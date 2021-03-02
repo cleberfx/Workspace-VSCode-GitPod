@@ -10,6 +10,7 @@ RUN apt-get update && apt-get install -y \
   git-flow \
   graphviz \
   iptables \
+  ufw \
   && apt-get clean && rm -rf /var/cache/apt/* && rm -rf /var/lib/apt/lists/* && rm -rf /tmp/*
   
 RUN ufw allow 22/tcp
