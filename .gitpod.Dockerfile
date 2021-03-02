@@ -9,14 +9,14 @@ RUN apt-get update && apt-get install -y \
   sudo \
   git-flow \
   graphviz \
-  iptables \
-  ufw \
-  net-tools \
+  #iptables \
+  #ufw \
+  #net-tools \
   && apt-get clean && rm -rf /var/cache/apt/* && rm -rf /var/lib/apt/lists/* && rm -rf /tmp/*
   
-RUN ufw allow 4000
-RUN ufw allow 22
-RUN ufw allow 2222
+#RUN ufw allow 4000
+#RUN ufw allow 22
+#RUN ufw allow 2222
 
 USER gitpod  
 
