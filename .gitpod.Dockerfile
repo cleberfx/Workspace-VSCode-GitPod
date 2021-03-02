@@ -9,13 +9,14 @@ RUN apt-get update && apt-get install -y \
   sudo \
   git-flow \
   graphviz \
-  iptables \
-  ufw \
+ # iptables \
+ # ufw \
+ net-tools \
   && apt-get clean && rm -rf /var/cache/apt/* && rm -rf /var/lib/apt/lists/* && rm -rf /tmp/*
   
-RUN ufw allow 22/tcp
-RUN ufw allow 2222/tcp
-RUN ufw allow 4000/tcp
+RUN netstat -na | grep :4000
+RUN netstat -na | grep :22
+RUN netstat -na | grep :2222
 
 USER gitpod  
 
