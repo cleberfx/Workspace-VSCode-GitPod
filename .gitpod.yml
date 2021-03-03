@@ -12,7 +12,7 @@ ports:
 # List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/config-start-tasks/
 tasks:
   # - command: code-server --user-data-dir data --auth none
-  - command: code-server --auth none
+  - command: code-server --extensions-dir /home/gitpod/.gitpod-code/extensions --auth none
   # mongoimport --host cluster0-shard-00-02.aba5z.mongodb.net:27017 --db student --collection grade --type csv --file grades.csv --headerline --authenticationDatabase admin --ssl --username dbUser --password dbUserPass
   - command: mongo "mongodb+srv://cluster0.aba5z.mongodb.net/student" --username dbUser --password dbUserPass
   - command: sdk install -y java 20.0.0.r11-grl
