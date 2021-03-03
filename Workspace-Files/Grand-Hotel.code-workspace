@@ -3,5 +3,10 @@
         {
             "path": "../../Grand-Hotel"
         }
-    ]
+    ],
+    "settings": {
+        "files.watcherExclude": {
+            "**/target": true
+        }
+    }
 }
