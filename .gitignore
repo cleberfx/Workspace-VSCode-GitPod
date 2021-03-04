@@ -1,1 +1,6 @@
 **/*.log
+
+
+.gitpod-config/logs/20210304T081328/extension_host_5/output_logging_20210304T085228/5-mongodb.log
+
+.gitpod-config/logs/20210304T081328/extension_host_5/exthost.log
