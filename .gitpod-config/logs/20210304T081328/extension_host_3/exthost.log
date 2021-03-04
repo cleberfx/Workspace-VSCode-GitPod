@@ -72,3 +72,7 @@
 [2021-03-04 08:25:51.000] [exthost] [info] ExtensionService#loadCommonJSModule file:///ide/extensions/json-language-features/client/dist/node/jsonClientMain
 [2021-03-04 08:25:51.055] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:jsonc"}
 [2021-03-04 08:25:51.055] [exthost] [info] ExtensionService#loadCommonJSModule file:///ide/extensions/typescript-language-features/dist/extension
+[2021-03-04 08:39:29.847] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-spring-initializr {"startup":false,"extensionId":{"value":"vscjava.vscode-spring-initializr","_lower":"vscjava.vscode-spring-initializr"},"activationEvent":"onCommand:spring.initializr.maven-project"}
+[2021-03-04 08:39:29.848] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/gitpod/.gitpod-code/extensions/vscjava.vscode-spring-initializr-0.6.1/dist/extension
+[2021-03-04 08:40:29.820] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-03-04 08:40:30.841] [exthost] [info] exiting with code 0

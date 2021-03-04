@@ -1,0 +1,49 @@
+2021-03-04T08:52:28.852Z extension.ts INFO  activate extension called []
+
+2021-03-04T08:52:28.855Z telemetry INFO  TELEMETRY key received [ 'string' ]
+
+2021-03-04T08:52:28.857Z LanguageServerController INFO  Creating MongoDB Language Server [
+  {
+    serverOptions: { run: [Object], debug: [Object] },
+    clientOptions: {
+      documentSelector: [Array],
+      synchronize: [Object],
+      outputChannel: [Object]
+    }
+  }
+]
+
+2021-03-04T08:52:28.862Z explorer controller INFO  activate explorer controller []
+
+2021-03-04T08:52:28.863Z help and info explorer controller INFO  activate help explorer []
+
+2021-03-04T08:52:28.863Z explorer controller INFO  activate playgrounds explorer []
+
+2021-03-04T08:52:28.864Z playground controller INFO  Active editor path [ undefined ]
+
+2021-03-04T08:52:28.864Z editors controller INFO  activating... []
+
+2021-03-04T08:52:28.865Z editors controller INFO  activated. []
+
+2021-03-04T08:52:28.871Z commands INFO  Registering commands... []
+
+2021-03-04T08:52:28.873Z commands INFO  Registered commands. []
+
+2021-03-04T08:52:28.873Z telemetry INFO  TELEMETRY track [
+  {
+    event: 'Command Run',
+    userId: '3834edf7-751e-4e4f-837f-ad40aff0030d',
+    properties: { command: 'mdb.openOverviewPage', extension_version: '0.4.2' }
+  }
+]
+
+2021-03-04T08:52:28.874Z webviewController INFO  open webview called. []
+
+2021-03-04T08:52:28.876Z extension.ts INFO  extension activated []
+
+2021-03-04T08:52:38.957Z telemetry INFO  TELEMETRY track done []
+
+2021-03-04T09:00:11.840Z playground controller INFO  Active editor path [ '/User/settings.json' ]
+
+2021-03-04T09:00:30.795Z playground controller INFO  Active editor path [ undefined ]
+
