@@ -1,0 +1,31 @@
+2021-03-04T07:07:32.293Z extension.ts INFO  activate extension called []
+
+2021-03-04T07:07:32.296Z telemetry INFO  TELEMETRY key received [ 'string' ]
+
+2021-03-04T07:07:32.298Z LanguageServerController INFO  Creating MongoDB Language Server [
+  {
+    serverOptions: { run: [Object], debug: [Object] },
+    clientOptions: {
+      documentSelector: [Array],
+      synchronize: [Object],
+      outputChannel: [Object]
+    }
+  }
+]
+
+2021-03-04T07:07:32.305Z editors controller INFO  activating... []
+
+2021-03-04T07:07:32.306Z editors controller INFO  activated. []
+
+2021-03-04T07:07:32.306Z explorer controller INFO  activate explorer controller []
+
+2021-03-04T07:07:32.312Z commands INFO  Registering commands... []
+
+2021-03-04T07:07:32.314Z commands INFO  Registered commands. []
+
+2021-03-04T07:07:32.314Z extension.ts INFO  extension activated []
+
+2021-03-04T07:07:45.041Z connection controller INFO  Disconnect called, currently connected to: [ null ]
+
+2021-03-04T07:07:45.043Z connection controller INFO  Disconnect called, currently connected to: [ null ]
+

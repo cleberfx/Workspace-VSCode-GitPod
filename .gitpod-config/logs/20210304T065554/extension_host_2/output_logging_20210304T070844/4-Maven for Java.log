@@ -1,0 +1,149 @@
+Spawn {"command":"mvn","args":["help:effective-pom","-Doutput=\"/home/gitpod/.gitpod-code/User/workspaceStorage/-700c9b31/vscjava.vscode-maven/c20a4d798a95687bc00185fc515eb892\"","-f","\"/workspace/Workspace-VSCode-GitPod/gitpod-code-config/extensions/pivotal.vscode-manifest-yaml-1.24.0/language-server/META-INF/maven/org.springframework.ide.vscode/manifest-yaml-language-server/pom.xml\""]}
+Picked up JAVA_TOOL_OPTIONS: -Xmx1879m
+[INFO] Scanning for projects...
+Downloading from jars-repository: file://${basedir}/repo/org/springframework/ide/vscode/commons-parent/1.24.0-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata org.springframework.ide.vscode:commons-parent:1.24.0-SNAPSHOT/maven-metadata.xml from/to jars-repository (file://${basedir}/repo): Repository path /repo does not exist, and cannot be created.
+Downloading from jars-repository: file://${basedir}/repo/org/springframework/ide/vscode/commons-parent/1.24.0-SNAPSHOT/commons-parent-1.24.0-SNAPSHOT.pom
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.springframework.ide.vscode:manifest-yaml-language-server:1.24.0-SNAPSHOT: Could not transfer artifact org.springframework.ide.vscode:commons-parent:pom:1.24.0-SNAPSHOT from/to jars-repository (file://${basedir}/repo): Repository path /repo does not exist, and cannot be created. and 'parent.relativePath' points at wrong local POM @ line 9, column 10
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.springframework.ide.vscode:manifest-yaml-language-server:1.24.0-SNAPSHOT (/workspace/Workspace-VSCode-GitPod/gitpod-code-config/extensions/pivotal.vscode-manifest-yaml-1.24.0/language-server/META-INF/maven/org.springframework.ide.vscode/manifest-yaml-language-server/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.springframework.ide.vscode:manifest-yaml-language-server:1.24.0-SNAPSHOT: Could not transfer artifact org.springframework.ide.vscode:commons-parent:pom:1.24.0-SNAPSHOT from/to jars-repository (file://${basedir}/repo): Repository path /repo does not exist, and cannot be created. and 'parent.relativePath' points at wrong local POM @ line 9, column 10 -> [Help 2]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+Spawn {"command":"mvn","args":["help:effective-pom","-Doutput=\"/home/gitpod/.gitpod-code/User/workspaceStorage/-700c9b31/vscjava.vscode-maven/936e9999e2456f7678cbaa68ba063c8b\"","-f","\"/workspace/Workspace-VSCode-GitPod/gitpod-code-config/extensions/pivotal.vscode-concourse-1.24.0/language-server/META-INF/maven/org.springframework.ide.vscode/concourse-language-server/pom.xml\""]}
+Picked up JAVA_TOOL_OPTIONS: -Xmx1879m
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.springframework.ide.vscode:concourse-language-server:1.24.0-SNAPSHOT: Could not find artifact org.springframework.ide.vscode:commons-parent:pom:1.24.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 9, column 10
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.springframework.ide.vscode:concourse-language-server:1.24.0-SNAPSHOT (/workspace/Workspace-VSCode-GitPod/gitpod-code-config/extensions/pivotal.vscode-concourse-1.24.0/language-server/META-INF/maven/org.springframework.ide.vscode/concourse-language-server/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.springframework.ide.vscode:concourse-language-server:1.24.0-SNAPSHOT: Could not find artifact org.springframework.ide.vscode:commons-parent:pom:1.24.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 9, column 10 -> [Help 2]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+Spawn {"command":"mvn","args":["help:effective-pom","-Doutput=\"/home/gitpod/.gitpod-code/User/workspaceStorage/-700c9b31/vscjava.vscode-maven/4c082a0e25f58fa65744ec6446cdf37e\"","-f","\"/workspace/Workspace-VSCode-GitPod/gitpod-code-config copy/extensions/pivotal.vscode-concourse-1.24.0/language-server/META-INF/maven/org.springframework.ide.vscode/concourse-language-server/pom.xml\""]}
+Picked up JAVA_TOOL_OPTIONS: -Xmx1879m
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.springframework.ide.vscode:concourse-language-server:1.24.0-SNAPSHOT: Could not find artifact org.springframework.ide.vscode:commons-parent:pom:1.24.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 9, column 10
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.springframework.ide.vscode:concourse-language-server:1.24.0-SNAPSHOT (/workspace/Workspace-VSCode-GitPod/gitpod-code-config copy/extensions/pivotal.vscode-concourse-1.24.0/language-server/META-INF/maven/org.springframework.ide.vscode/concourse-language-server/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.springframework.ide.vscode:concourse-language-server:1.24.0-SNAPSHOT: Could not find artifact org.springframework.ide.vscode:commons-parent:pom:1.24.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 9, column 10 -> [Help 2]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+Spawn {"command":"mvn","args":["help:effective-pom","-Doutput=\"/home/gitpod/.gitpod-code/User/workspaceStorage/-700c9b31/vscjava.vscode-maven/297d4f8a7cc60945446f299d212923f4\"","-f","\"/workspace/Workspace-VSCode-GitPod/gitpod-code-config copy/extensions/pivotal.vscode-manifest-yaml-1.24.0/language-server/META-INF/maven/org.springframework.ide.vscode/manifest-yaml-language-server/pom.xml\""]}
+Picked up JAVA_TOOL_OPTIONS: -Xmx1879m
+[INFO] Scanning for projects...
+Downloading from jars-repository: file://${basedir}/repo/org/springframework/ide/vscode/commons-parent/1.24.0-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata org.springframework.ide.vscode:commons-parent:1.24.0-SNAPSHOT/maven-metadata.xml from/to jars-repository (file://${basedir}/repo): Repository path /repo does not exist, and cannot be created.
+Downloading from jars-repository: file://${basedir}/repo/org/springframework/ide/vscode/commons-parent/1.24.0-SNAPSHOT/commons-parent-1.24.0-SNAPSHOT.pom
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.springframework.ide.vscode:manifest-yaml-language-server:1.24.0-SNAPSHOT: Could not transfer artifact org.springframework.ide.vscode:commons-parent:pom:1.24.0-SNAPSHOT from/to jars-repository (file://${basedir}/repo): Repository path /repo does not exist, and cannot be created. and 'parent.relativePath' points at wrong local POM @ line 9, column 10
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.springframework.ide.vscode:manifest-yaml-language-server:1.24.0-SNAPSHOT (/workspace/Workspace-VSCode-GitPod/gitpod-code-config copy/extensions/pivotal.vscode-manifest-yaml-1.24.0/language-server/META-INF/maven/org.springframework.ide.vscode/manifest-yaml-language-server/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.springframework.ide.vscode:manifest-yaml-language-server:1.24.0-SNAPSHOT: Could not transfer artifact org.springframework.ide.vscode:commons-parent:pom:1.24.0-SNAPSHOT from/to jars-repository (file://${basedir}/repo): Repository path /repo does not exist, and cannot be created. and 'parent.relativePath' points at wrong local POM @ line 9, column 10 -> [Help 2]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+Spawn {"command":"mvn","args":["help:effective-pom","-Doutput=\"/home/gitpod/.gitpod-code/User/workspaceStorage/-700c9b31/vscjava.vscode-maven/936e9999e2456f7678cbaa68ba063c8b\"","-f","\"/workspace/Workspace-VSCode-GitPod/gitpod-code-config/extensions/pivotal.vscode-concourse-1.24.0/language-server/META-INF/maven/org.springframework.ide.vscode/concourse-language-server/pom.xml\""]}
+Picked up JAVA_TOOL_OPTIONS: -Xmx1879m
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.springframework.ide.vscode:concourse-language-server:1.24.0-SNAPSHOT: Could not find artifact org.springframework.ide.vscode:commons-parent:pom:1.24.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 9, column 10
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.springframework.ide.vscode:concourse-language-server:1.24.0-SNAPSHOT (/workspace/Workspace-VSCode-GitPod/gitpod-code-config/extensions/pivotal.vscode-concourse-1.24.0/language-server/META-INF/maven/org.springframework.ide.vscode/concourse-language-server/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.springframework.ide.vscode:concourse-language-server:1.24.0-SNAPSHOT: Could not find artifact org.springframework.ide.vscode:commons-parent:pom:1.24.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 9, column 10 -> [Help 2]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+Spawn {"command":"mvn","args":["help:effective-pom","-Doutput=\"/home/gitpod/.gitpod-code/User/workspaceStorage/-700c9b31/vscjava.vscode-maven/c20a4d798a95687bc00185fc515eb892\"","-f","\"/workspace/Workspace-VSCode-GitPod/gitpod-code-config/extensions/pivotal.vscode-manifest-yaml-1.24.0/language-server/META-INF/maven/org.springframework.ide.vscode/manifest-yaml-language-server/pom.xml\""]}
+Picked up JAVA_TOOL_OPTIONS: -Xmx1879m
+[INFO] Scanning for projects...
+Downloading from jars-repository: file://${basedir}/repo/org/springframework/ide/vscode/commons-parent/1.24.0-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata org.springframework.ide.vscode:commons-parent:1.24.0-SNAPSHOT/maven-metadata.xml from/to jars-repository (file://${basedir}/repo): Repository path /repo does not exist, and cannot be created.
+Downloading from jars-repository: file://${basedir}/repo/org/springframework/ide/vscode/commons-parent/1.24.0-SNAPSHOT/commons-parent-1.24.0-SNAPSHOT.pom
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.springframework.ide.vscode:manifest-yaml-language-server:1.24.0-SNAPSHOT: Could not transfer artifact org.springframework.ide.vscode:commons-parent:pom:1.24.0-SNAPSHOT from/to jars-repository (file://${basedir}/repo): Repository path /repo does not exist, and cannot be created. and 'parent.relativePath' points at wrong local POM @ line 9, column 10
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.springframework.ide.vscode:manifest-yaml-language-server:1.24.0-SNAPSHOT (/workspace/Workspace-VSCode-GitPod/gitpod-code-config/extensions/pivotal.vscode-manifest-yaml-1.24.0/language-server/META-INF/maven/org.springframework.ide.vscode/manifest-yaml-language-server/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.springframework.ide.vscode:manifest-yaml-language-server:1.24.0-SNAPSHOT: Could not transfer artifact org.springframework.ide.vscode:commons-parent:pom:1.24.0-SNAPSHOT from/to jars-repository (file://${basedir}/repo): Repository path /repo does not exist, and cannot be created. and 'parent.relativePath' points at wrong local POM @ line 9, column 10 -> [Help 2]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+Spawn {"command":"mvn","args":["help:effective-pom","-Doutput=\"/home/gitpod/.gitpod-code/User/workspaceStorage/-700c9b31/vscjava.vscode-maven/0c8b0e36b0bbc7018d7e66e6c3150307\"","-f","\"/workspace/Workspace-VSCode-GitPod/gitpod-code-config_/extensions/pivotal.vscode-concourse-1.24.0/language-server/META-INF/maven/org.springframework.ide.vscode/concourse-language-server/pom.xml\""]}
+Picked up JAVA_TOOL_OPTIONS: -Xmx1879m
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.springframework.ide.vscode:concourse-language-server:1.24.0-SNAPSHOT: Could not find artifact org.springframework.ide.vscode:commons-parent:pom:1.24.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 9, column 10
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.springframework.ide.vscode:concourse-language-server:1.24.0-SNAPSHOT (/workspace/Workspace-VSCode-GitPod/gitpod-code-config_/extensions/pivotal.vscode-concourse-1.24.0/language-server/META-INF/maven/org.springframework.ide.vscode/concourse-language-server/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.springframework.ide.vscode:concourse-language-server:1.24.0-SNAPSHOT: Could not find artifact org.springframework.ide.vscode:commons-parent:pom:1.24.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 9, column 10 -> [Help 2]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+Spawn {"command":"mvn","args":["help:effective-pom","-Doutput=\"/home/gitpod/.gitpod-code/User/workspaceStorage/-700c9b31/vscjava.vscode-maven/65c05da9a10d4209c179808a76faa280\"","-f","\"/workspace/Workspace-VSCode-GitPod/gitpod-code-config_/extensions/pivotal.vscode-manifest-yaml-1.24.0/language-server/META-INF/maven/org.springframework.ide.vscode/manifest-yaml-language-server/pom.xml\""]}
+Picked up JAVA_TOOL_OPTIONS: -Xmx1879m
+[INFO] Scanning for projects...
+Downloading from jars-repository: file://${basedir}/repo/org/springframework/ide/vscode/commons-parent/1.24.0-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata org.springframework.ide.vscode:commons-parent:1.24.0-SNAPSHOT/maven-metadata.xml from/to jars-repository (file://${basedir}/repo): Repository path /repo does not exist, and cannot be created.
+Downloading from jars-repository: file://${basedir}/repo/org/springframework/ide/vscode/commons-parent/1.24.0-SNAPSHOT/commons-parent-1.24.0-SNAPSHOT.pom
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.springframework.ide.vscode:manifest-yaml-language-server:1.24.0-SNAPSHOT: Could not transfer artifact org.springframework.ide.vscode:commons-parent:pom:1.24.0-SNAPSHOT from/to jars-repository (file://${basedir}/repo): Repository path /repo does not exist, and cannot be created. and 'parent.relativePath' points at wrong local POM @ line 9, column 10
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.springframework.ide.vscode:manifest-yaml-language-server:1.24.0-SNAPSHOT (/workspace/Workspace-VSCode-GitPod/gitpod-code-config_/extensions/pivotal.vscode-manifest-yaml-1.24.0/language-server/META-INF/maven/org.springframework.ide.vscode/manifest-yaml-language-server/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.springframework.ide.vscode:manifest-yaml-language-server:1.24.0-SNAPSHOT: Could not transfer artifact org.springframework.ide.vscode:commons-parent:pom:1.24.0-SNAPSHOT from/to jars-repository (file://${basedir}/repo): Repository path /repo does not exist, and cannot be created. and 'parent.relativePath' points at wrong local POM @ line 9, column 10 -> [Help 2]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+Spawn {"command":"mvn","args":["help:effective-pom","-Doutput=\"/home/gitpod/.gitpod-code/User/workspaceStorage/-700c9b31/vscjava.vscode-maven/a1b006e331b3fdea586f52ac9528d836\"","-f","\"/workspace/Workspace-VSCode-GitPod/.gitpod-code/extensions/pivotal.vscode-manifest-yaml-1.24.0/language-server/META-INF/maven/org.springframework.ide.vscode/manifest-yaml-language-server/pom.xml\""]}

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="61" failures="0" errors="0" time="7.525">
+  <testsuite name="Resources Panel Component Test Suite" errors="0" failures="0" skipped="0" timestamp="2021-02-17T15:23:34" time="4.2" tests="2">
+    <testcase classname="Resources Panel Component Test Suite when rendered when a link is clicked it sends a telemetry event to the extension" name="Resources Panel Component Test Suite when rendered when a link is clicked it sends a telemetry event to the extension" time="0.164">
+    </testcase>
+    <testcase classname="Resources Panel Component Test Suite when rendered when a trusted link is clicked it sends an event to the extension" name="Resources Panel Component Test Suite when rendered when a trusted link is clicked it sends an event to the extension" time="0.048">
+    </testcase>
+  </testsuite>
+  <testsuite name="Authentication Component Test Suite" errors="0" failures="0" skipped="0" timestamp="2021-02-17T15:23:34" time="4.199" tests="3">
+    <testcase classname="Authentication Component Test Suite it shows a select for the authentication method" name="Authentication Component Test Suite it shows a select for the authentication method" time="0.095">
+    </testcase>
+    <testcase classname="Authentication Component Test Suite it renders mongodb auth when the authStrategy is set" name="Authentication Component Test Suite it renders mongodb auth when the authStrategy is set" time="0.006">
+    </testcase>
+    <testcase classname="Authentication Component Test Suite it renders SCRAM-SHA-256 when the auth strategy is set" name="Authentication Component Test Suite it renders SCRAM-SHA-256 when the auth strategy is set" time="0.016">
+    </testcase>
+  </testsuite>
+  <testsuite name="Overview Page Component Test Suite" errors="0" failures="0" skipped="0" timestamp="2021-02-17T15:23:34" time="4.27" tests="7">
+    <testcase classname="Overview Page Component Test Suite when rendered it shows an overview header" name="Overview Page Component Test Suite when rendered it shows an overview header" time="0.057">
+    </testcase>
+    <testcase classname="Overview Page Component Test Suite when rendered it shows the connection status" name="Overview Page Component Test Suite when rendered it shows the connection status" time="0.022">
+    </testcase>
+    <testcase classname="Overview Page Component Test Suite when rendered it shows the connect helper" name="Overview Page Component Test Suite when rendered it shows the connect helper" time="0.009">
+    </testcase>
+    <testcase classname="Overview Page Component Test Suite when rendered it does not show the connect form modal" name="Overview Page Component Test Suite when rendered it does not show the connect form modal" time="0.014">
+    </testcase>
+    <testcase classname="Overview Page Component Test Suite when rendered it does not show the resources panel" name="Overview Page Component Test Suite when rendered it does not show the resources panel" time="0.004">
+    </testcase>
+    <testcase classname="Overview Page Component Test Suite when rendered with showConnectForm it shows the connect form" name="Overview Page Component Test Suite when rendered with showConnectForm it shows the connect form" time="0.019">
+    </testcase>
+    <testcase classname="Overview Page Component Test Suite when rendered with showResourcesPanel it shows the resources panel" name="Overview Page Component Test Suite when rendered with showResourcesPanel it shows the resources panel" time="0.007">
+    </testcase>
+  </testsuite>
+  <testsuite name="Webview Connection Form Component Test Suite" errors="0" failures="0" skipped="0" timestamp="2021-02-17T15:23:34" time="4.261" tests="5">
+    <testcase classname="Webview Connection Form Component Test Suite it shows a connection form" name="Webview Connection Form Component Test Suite it shows a connection form" time="0.061">
+    </testcase>
+    <testcase classname="Webview Connection Form Component Test Suite it shows the general tab when the connectionFormTab prop is GENERAL" name="Webview Connection Form Component Test Suite it shows the general tab when the connectionFormTab prop is GENERAL" time="0.04">
+    </testcase>
+    <testcase classname="Webview Connection Form Component Test Suite it shows the ssl tab when the connectionFormTab prop is SSL" name="Webview Connection Form Component Test Suite it shows the ssl tab when the connectionFormTab prop is SSL" time="0.02">
+    </testcase>
+    <testcase classname="Webview Connection Form Component Test Suite it shows the ssh tab when the connectionFormTab prop is SSH" name="Webview Connection Form Component Test Suite it shows the ssh tab when the connectionFormTab prop is SSH" time="0.019">
+    </testcase>
+    <testcase classname="Webview Connection Form Component Test Suite it shows the advanced tab when the connectionFormTab prop is ADVANCED" name="Webview Connection Form Component Test Suite it shows the advanced tab when the connectionFormTab prop is ADVANCED" time="0.007">
+    </testcase>
+  </testsuite>
+  <testsuite name="Host Component Test Suite" errors="0" failures="0" skipped="0" timestamp="2021-02-17T15:23:34" time="4.192" tests="17">
+    <testcase classname="Host Component Test Suite it shows a form group" name="Host Component Test Suite it shows a form group" time="0.06">
+    </testcase>
+    <testcase classname="Host Component Test Suite it shows the three connection types (standalone, replicaset, srv)" name="Host Component Test Suite it shows the three connection types (standalone, replicaset, srv)" time="0.059">
+    </testcase>
+    <testcase classname="Host Component Test Suite when there is no replicaSet and only one host it shows the port input" name="Host Component Test Suite when there is no replicaSet and only one host it shows the port input" time="0.003">
+    </testcase>
+    <testcase classname="Host Component Test Suite when there is no replicaSet and only one host it shows the hostname input" name="Host Component Test Suite when there is no replicaSet and only one host it shows the hostname input" time="0.001">
+    </testcase>
+    <testcase classname="Host Component Test Suite when there is no replicaSet and only one host it shows a plus button to add a host" name="Host Component Test Suite when there is no replicaSet and only one host it shows a plus button to add a host" time="0.016">
+    </testcase>
+    <testcase classname="Host Component Test Suite when there is no replicaSet and only one host when add host is clicked it calls to set the replica set to a string" name="Host Component Test Suite when there is no replicaSet and only one host when add host is clicked it calls to set the replica set to a string" time="0.004">
+    </testcase>
+    <testcase classname="Host Component Test Suite when there is no replicaSet and only one host when add host is clicked it calls to update hosts to add a new default host" name="Host Component Test Suite when there is no replicaSet and only one host when add host is clicked it calls to update hosts to add a new default host" time="0.001">
+    </testcase>
+    <testcase classname="Host Component Test Suite when there is a replicaSet or more than one host it shows hostname input" name="Host Component Test Suite when there is a replicaSet or more than one host it shows hostname input" time="0.002">
+    </testcase>
+    <testcase classname="Host Component Test Suite when there is a replicaSet or more than one host it shows the port input" name="Host Component Test Suite when there is a replicaSet or more than one host it shows the port input" time="0.001">
+    </testcase>
+    <testcase classname="Host Component Test Suite when there is a replicaSet or more than one host it shows a plus button to add a host" name="Host Component Test Suite when there is a replicaSet or more than one host it shows a plus button to add a host" time="0.046">
+    </testcase>
+    <testcase classname="Host Component Test Suite when there is a replicaSet or more than one host it does not show a minus button to remove the host" name="Host Component Test Suite when there is a replicaSet or more than one host it does not show a minus button to remove the host" time="0.008">
+    </testcase>
+    <testcase classname="Host Component Test Suite when there is a replicaSet or more than one host when there is more than one host shows a minus button to remove the host" name="Host Component Test Suite when there is a replicaSet or more than one host when there is more than one host shows a minus button to remove the host" time="0.012">
+    </testcase>
+    <testcase classname="Host Component Test Suite when there is a replicaSet or more than one host when there is more than one host shows host name input for each host" name="Host Component Test Suite when there is a replicaSet or more than one host when there is more than one host shows host name input for each host" time="0.004">
+    </testcase>
+    <testcase classname="Host Component Test Suite when there is a replicaSet or more than one host when there is more than one host shows host port input for each host" name="Host Component Test Suite when there is a replicaSet or more than one host when there is more than one host shows host port input for each host" time="0.011">
+    </testcase>
+    <testcase classname="Host Component Test Suite when there is a replicaSet or more than one host when there is more than one host when remove host is clicked it calls to update hosts to with one less host" name="Host Component Test Suite when there is a replicaSet or more than one host when there is more than one host when remove host is clicked it calls to update hosts to with one less host" time="0.007">
+    </testcase>
+    <testcase classname="Host Component Test Suite when srvRecord is true it shows hostname input" name="Host Component Test Suite when srvRecord is true it shows hostname input" time="0.001">
+    </testcase>
+    <testcase classname="Host Component Test Suite when srvRecord is true it does not show the port input" name="Host Component Test Suite when srvRecord is true it does not show the port input" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Connect Helper Component Test Suite" errors="0" failures="0" skipped="0" timestamp="2021-02-17T15:23:34" time="4.269" tests="2">
+    <testcase classname="Connect Helper Component Test Suite when rendered when onOpenConnectionStringInput is clicked it posts a message to vscode to open the input" name="Connect Helper Component Test Suite when rendered when onOpenConnectionStringInput is clicked it posts a message to vscode to open the input" time="0.111">
+    </testcase>
+    <testcase classname="Connect Helper Component Test Suite when rendered when onOpenConnectionFrom is clicked it shows the connect form modal" name="Connect Helper Component Test Suite when rendered when onOpenConnectionFrom is clicked it shows the connect form modal" time="0.008">
+    </testcase>
+  </testsuite>
+  <testsuite name="Connection Status Component Test Suite" errors="0" failures="0" skipped="0" timestamp="2021-02-17T15:23:34" time="4.399" tests="9">
+    <testcase classname="Connection Status Component Test Suite connected connection status it shows that it is connected to the connection name" name="Connection Status Component Test Suite connected connection status it shows that it is connected to the connection name" time="0.019">
+    </testcase>
+    <testcase classname="Connection Status Component Test Suite connected connection status it shows a create playground button" name="Connection Status Component Test Suite connected connection status it shows a create playground button" time="0.022">
+    </testcase>
+    <testcase classname="Connection Status Component Test Suite connected connection status it shows an edit connection name button" name="Connection Status Component Test Suite connected connection status it shows an edit connection name button" time="0.047">
+    </testcase>
+    <testcase classname="Connection Status Component Test Suite connected connection status with store actions when the edit connection name button is clicked it posts a message to the extension to rename the connection" name="Connection Status Component Test Suite connected connection status with store actions when the edit connection name button is clicked it posts a message to the extension to rename the connection" time="0.117">
+    </testcase>
+    <testcase classname="Connection Status Component Test Suite disconnected it shows a disconnect message" name="Connection Status Component Test Suite disconnected it shows a disconnect message" time="0">
+    </testcase>
+    <testcase classname="Connection Status Component Test Suite disconnected it does not show a create playground button" name="Connection Status Component Test Suite disconnected it does not show a create playground button" time="0.001">
+    </testcase>
+    <testcase classname="Connection Status Component Test Suite connecting it shows a connecting message" name="Connection Status Component Test Suite connecting it shows a connecting message" time="0.001">
+    </testcase>
+    <testcase classname="Connection Status Component Test Suite disconnecting it shows a connecting message" name="Connection Status Component Test Suite disconnecting it shows a connecting message" time="0">
+    </testcase>
+    <testcase classname="Connection Status Component Test Suite loading it shows a loading message" name="Connection Status Component Test Suite loading it shows a loading message" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="Connect Form Actions Component Test Suite" errors="0" failures="0" skipped="0" timestamp="2021-02-17T15:23:34" time="4.278" tests="2">
+    <testcase classname="Connect Form Actions Component Test Suite when rendered when connect is clicked it posts a message to vscode to connect" name="Connect Form Actions Component Test Suite when rendered when connect is clicked it posts a message to vscode to connect" time="0.07">
+    </testcase>
+    <testcase classname="Connect Form Actions Component Test Suite when rendered when the cancel button is clicked it hides the connect form modal" name="Connect Form Actions Component Test Suite when rendered when the cancel button is clicked it hides the connect form modal" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="Resources Panel Component Test Suite" errors="0" failures="0" skipped="0" timestamp="2021-02-17T15:23:34" time="4.398" tests="2">
+    <testcase classname="Resources Panel Component Test Suite when rendered when the x is clicked it closes the panel" name="Resources Panel Component Test Suite when rendered when the x is clicked it closes the panel" time="0.111">
+    </testcase>
+    <testcase classname="Resources Panel Component Test Suite when rendered when a link is clicked it sends a telemetry event to the extension" name="Resources Panel Component Test Suite when rendered when a link is clicked it sends a telemetry event to the extension" time="0.019">
+    </testcase>
+  </testsuite>
+  <testsuite name="Radio Box Group Component Test Suite" errors="0" failures="0" skipped="0" timestamp="2021-02-17T15:23:38" time="0.284" tests="3">
+    <testcase classname="Radio Box Group Component Test Suite when rendered it shows an input for each option" name="Radio Box Group Component Test Suite when rendered it shows an input for each option" time="0.002">
+    </testcase>
+    <testcase classname="Radio Box Group Component Test Suite when rendered it shows the group label" name="Radio Box Group Component Test Suite when rendered it shows the group label" time="0.003">
+    </testcase>
+    <testcase classname="Radio Box Group Component Test Suite when rendered when an option is clicked it calls the onChange prop with that value" name="Radio Box Group Component Test Suite when rendered when an option is clicked it calls the onChange prop with that value" time="0.01">
+    </testcase>
+  </testsuite>
+  <testsuite name="Webview Store Test Suite" errors="0" failures="0" skipped="0" timestamp="2021-02-17T15:23:38" time="0.347" tests="2">
+    <testcase classname="Webview Store Test Suite ensure the state updates on an action call" name="Webview Store Test Suite ensure the state updates on an action call" time="0.001">
+    </testcase>
+    <testcase classname="Webview Store Test Suite ensure we don&apos;t update connection status when the connectionAttemptId doesnt match the current one" name="Webview Store Test Suite ensure we don&apos;t update connection status when the connectionAttemptId doesnt match the current one" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="General Tab Component Test Suite" errors="0" failures="0" skipped="0" timestamp="2021-02-17T15:23:38" time="0.404" tests="1">
+    <testcase classname="General Tab Component Test Suite it shows host input, srv input, and authentication" name="General Tab Component Test Suite it shows host input, srv input, and authentication" time="0.011">
+    </testcase>
+  </testsuite>
+  <testsuite name="App Component Test Suite" errors="0" failures="0" skipped="0" timestamp="2021-02-17T15:23:34" time="4.527" tests="2">
+    <testcase classname="App Component Test Suite when rendered it shows the overview page" name="App Component Test Suite when rendered it shows the overview page" time="0.028">
+    </testcase>
+    <testcase classname="App Component Test Suite when the extension sends a connection status message it updates the connectionStatus in the store" name="App Component Test Suite when the extension sends a connection status message it updates the connectionStatus in the store" time="0.092">
+    </testcase>
+  </testsuite>
+  <testsuite name="Connect Form Modal Component Test Suite" errors="0" failures="0" skipped="0" timestamp="2021-02-17T15:23:34" time="4.718" tests="3">
+    <testcase classname="Connect Form Modal Component Test Suite when rendered it shows the connection form" name="Connect Form Modal Component Test Suite when rendered it shows the connection form" time="0.029">
+    </testcase>
+    <testcase classname="Connect Form Modal Component Test Suite when rendered it shows a close icon" name="Connect Form Modal Component Test Suite when rendered it shows a close icon" time="0.006">
+    </testcase>
+    <testcase classname="Connect Form Modal Component Test Suite store actions when the x is clicked it closes the connect form" name="Connect Form Modal Component Test Suite store actions when the x is clicked it closes the connect form" time="0.321">
+    </testcase>
+  </testsuite>
+  <testsuite name="Advanced Tab Component Test Suite" errors="0" failures="0" skipped="0" timestamp="2021-02-17T15:23:39" time="0.28" tests="1">
+    <testcase classname="Advanced Tab Component Test Suite it shows replica set input and read preference selection" name="Advanced Tab Component Test Suite it shows replica set input and read preference selection" time="0.006">
+    </testcase>
+  </testsuite>
+</testsuites>
