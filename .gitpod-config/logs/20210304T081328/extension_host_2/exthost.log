@@ -1,0 +1,72 @@
+[2021-03-04 08:17:40.952] [exthost] [info] extension host started
+[2021-03-04 08:17:42.169] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-03-04 08:17:42.170] [exthost] [info] ExtensionService#loadCommonJSModule file:///ide/extensions/debug-auto-launch/dist/extension
+[2021-03-04 08:17:42.178] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-03-04 08:17:42.178] [exthost] [info] ExtensionService#loadCommonJSModule file:///ide/extensions/git/dist/main
+[2021-03-04 08:17:42.286] [exthost] [info] ExtensionService#_doActivateExtension gitpod.gitpod {"startup":true,"extensionId":{"value":"gitpod.gitpod","_lower":"gitpod.gitpod"},"activationEvent":"*"}
+[2021-03-04 08:17:42.286] [exthost] [info] ExtensionService#loadCommonJSModule file:///ide/extensions/gitpod/dist/extension.js
+[2021-03-04 08:17:42.398] [exthost] [info] ExtensionService#_doActivateExtension naumovs.color-highlight {"startup":true,"extensionId":{"value":"naumovs.color-highlight","_lower":"naumovs.color-highlight"},"activationEvent":"*"}
+[2021-03-04 08:17:42.398] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/gitpod/.gitpod-code/extensions/naumovs.color-highlight-2.3.0/dist/extension
+[2021-03-04 08:17:42.418] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":true,"extensionId":{"value":"ritwickdey.LiveServer","_lower":"ritwickdey.liveserver"},"activationEvent":"*"}
+[2021-03-04 08:17:42.418] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/gitpod/.gitpod-code/extensions/ritwickdey.liveserver-5.6.1/out/src/extension
+[2021-03-04 08:17:42.728] [exthost] [info] ExtensionService#_doActivateExtension Shan.code-settings-sync {"startup":true,"extensionId":{"value":"Shan.code-settings-sync","_lower":"shan.code-settings-sync"},"activationEvent":"*"}
+[2021-03-04 08:17:42.728] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/gitpod/.gitpod-code/extensions/shan.code-settings-sync-3.4.3/out/extension.js
+[2021-03-04 08:17:42.781] [exthost] [info] ExtensionService#_doActivateExtension WallabyJs.quokka-vscode {"startup":true,"extensionId":{"value":"WallabyJs.quokka-vscode","_lower":"wallabyjs.quokka-vscode"},"activationEvent":"*"}
+[2021-03-04 08:17:42.781] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/gitpod/.gitpod-code/extensions/wallabyjs.quokka-vscode-1.0.312/index
+[2021-03-04 08:17:42.787] [exthost] [error] Activating extension Shan.code-settings-sync failed due to an error:
+[2021-03-04 08:17:42.801] [exthost] [error] TypeError: Cannot read property 'split' of undefined
+	at e.recurseCandidates (/workspace/Workspace-VSCode-GitPod/.gitpod-config/extensions/shan.code-settings-sync-3.4.3/out/extension.js:32:8515)
+	at e.resolveLanguagePack (/workspace/Workspace-VSCode-GitPod/.gitpod-config/extensions/shan.code-settings-sync-3.4.3/out/extension.js:32:8168)
+	at new e (/workspace/Workspace-VSCode-GitPod/.gitpod-config/extensions/shan.code-settings-sync-3.4.3/out/extension.js:32:7561)
+	at Object.<anonymous> (/workspace/Workspace-VSCode-GitPod/.gitpod-config/extensions/shan.code-settings-sync-3.4.3/out/extension.js:32:8652)
+	at n (/workspace/Workspace-VSCode-GitPod/.gitpod-config/extensions/shan.code-settings-sync-3.4.3/out/extension.js:1:124)
+	at Object.<anonymous> (/workspace/Workspace-VSCode-GitPod/.gitpod-config/extensions/shan.code-settings-sync-3.4.3/out/extension.js:74:5610)
+	at n (/workspace/Workspace-VSCode-GitPod/.gitpod-config/extensions/shan.code-settings-sync-3.4.3/out/extension.js:1:124)
+	at Object.<anonymous> (/workspace/Workspace-VSCode-GitPod/.gitpod-config/extensions/shan.code-settings-sync-3.4.3/out/extension.js:290:11798)
+	at n (/workspace/Workspace-VSCode-GitPod/.gitpod-config/extensions/shan.code-settings-sync-3.4.3/out/extension.js:1:124)
+	at Object.<anonymous> (/workspace/Workspace-VSCode-GitPod/.gitpod-config/extensions/shan.code-settings-sync-3.4.3/out/extension.js:290:9641)
+	at n (/workspace/Workspace-VSCode-GitPod/.gitpod-config/extensions/shan.code-settings-sync-3.4.3/out/extension.js:1:124)
+	at /workspace/Workspace-VSCode-GitPod/.gitpod-config/extensions/shan.code-settings-sync-3.4.3/out/extension.js:1:923
+	at Object.<anonymous> (/workspace/Workspace-VSCode-GitPod/.gitpod-config/extensions/shan.code-settings-sync-3.4.3/out/extension.js:1:934)
+	at Module._compile (internal/modules/cjs/loader.js:1137:30)
+	at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+	at Module.load (internal/modules/cjs/loader.js:985:32)
+	at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+	at Function.Module._load (/ide/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65494:33)
+	at Function.load (/ide/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65349:37)
+	at Function.load [as _load] (/ide/out/vs/workbench/services/extensions/node/extensionHostProcess.js:62675:37)
+	at Module.require (internal/modules/cjs/loader.js:1025:19)
+	at require (internal/modules/cjs/helpers.js:72:18)
+	at Function.nodeRequire [as __$__nodeRequire] (/ide/out/vs/loader.js:1003:24)
+	at ExtHostExtensionService._loadCommonJSModule (/ide/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65405:29)
+	at ExtHostExtensionService._doActivateExtension (/ide/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57673:22)
+	at ExtHostExtensionService._activateExtension (/ide/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57647:25)
+	at Object.actualActivateExtension (/ide/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57515:33)
+	at ExtensionsActivator._activateExtension (/ide/out/vs/workbench/services/extensions/node/extensionHostProcess.js:44252:57)
+	at /ide/out/vs/workbench/services/extensions/node/extensionHostProcess.js:44237:58
+	at Array.map (<anonymous>)
+	at ExtensionsActivator._activateExtensions (/ide/out/vs/workbench/services/extensions/node/extensionHostProcess.js:44237:42)
+	at ExtensionsActivator._activateExtensions (/ide/out/vs/workbench/services/extensions/node/extensionHostProcess.js:44239:25)
+	at ExtensionsActivator.activateByEvent (/ide/out/vs/workbench/services/extensions/node/extensionHostProcess.js:44128:25)
+	at ExtHostExtensionService._activateByEvent (/ide/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57563:36)
+	at ExtHostExtensionService._handleEagerExtensions (/ide/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57778:41)
+	at /ide/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57891:34
+[2021-03-04 08:17:44.612] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-maven {"startup":true,"extensionId":{"value":"vscjava.vscode-maven","_lower":"vscjava.vscode-maven"},"activationEvent":"workspaceContains:**/pom.xml"}
+[2021-03-04 08:17:44.612] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/gitpod/.gitpod-code/extensions/vscjava.vscode-maven-0.21.2/dist/extension
+[2021-03-04 08:17:47.010] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"gitpod.gitpod","_lower":"gitpod.gitpod"},"activationEvent":"api"}
+[2021-03-04 08:17:47.010] [exthost] [info] ExtensionService#loadCommonJSModule file:///ide/extensions/github-authentication/dist/extension.js
+[2021-03-04 08:17:47.030] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-03-04 08:17:47.030] [exthost] [info] ExtensionService#loadCommonJSModule file:///ide/extensions/github/dist/extension.js
+[2021-03-04 08:17:48.585] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-03-04 08:17:48.586] [exthost] [info] ExtensionService#loadCommonJSModule file:///ide/extensions/ms-vscode.js-debug/src/extension.js
+[2021-03-04 08:17:49.716] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-03-04 08:17:49.716] [exthost] [info] ExtensionService#loadCommonJSModule file:///ide/extensions/emmet/dist/node/emmetNodeMain
+[2021-03-04 08:17:49.736] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-03-04 08:17:49.736] [exthost] [info] ExtensionService#loadCommonJSModule file:///ide/extensions/merge-conflict/dist/mergeConflictMain
+[2021-03-04 08:17:49.742] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-03-04 08:17:49.742] [exthost] [info] ExtensionService#loadCommonJSModule file:///ide/extensions/testing-editor-contributions/dist/extension.js
+[2021-03-04 08:17:49.746] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":false,"extensionId":{"value":"esbenp.prettier-vscode","_lower":"esbenp.prettier-vscode"},"activationEvent":"onStartupFinished"}
+[2021-03-04 08:17:49.747] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/gitpod/.gitpod-code/extensions/esbenp.prettier-vscode-5.9.2/dist/extension
+[2021-03-04 08:17:49.878] [exthost] [info] eager extensions activated
+[2021-03-04 08:23:20.668] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-03-04 08:23:21.683] [exthost] [info] exiting with code 0
