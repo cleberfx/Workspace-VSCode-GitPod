@@ -20,6 +20,10 @@ tasks:
   - command: sdk install -y scala 2.12.12
   - command: sdk install -y spark 2.4.6
   - command: sdk install -y sbt 1.3.9
+  - command: cd ~
+  - command: rm -r .gitpod-code
+  - command: ln -s /workspace/Workspace-VSCode-GitPod/gitpod-config .gitpod-code
+  
   
 vscode:
   extensions:
