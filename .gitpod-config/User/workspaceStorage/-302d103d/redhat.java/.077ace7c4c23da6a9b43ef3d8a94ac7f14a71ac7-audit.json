@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 2
+    },
+    "auditLog": "/home/gitpod/.gitpod-code/User/workspaceStorage/-302d103d/redhat.java/.077ace7c4c23da6a9b43ef3d8a94ac7f14a71ac7-audit.json",
+    "files": [
+        {
+            "date": 1614853709984,
+            "name": "/home/gitpod/.gitpod-code/User/workspaceStorage/-302d103d/redhat.java/client.log.2021-03-04",
+            "hash": "70181e1586642d6ca8b827a7a73938cc"
+        }
+    ]
+}

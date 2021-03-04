@@ -2,6 +2,20 @@
     "folders": [
         {
             "path": "../../Ecommerce"
+        },
+        {
+            "path": "../../Ecommerce/ecommerce-checkout-api-master/ecommerce-checkout-api-master"
+        },
+        {
+            "path": "../../Ecommerce/ecommerce-checkout-frontend-master/ecommerce-checkout-frontend-master"
+        },
+        {
+            "path": "../../Ecommerce/ecommerce-payment-api-master/ecommerce-payment-api-master"
         }
-    ]
+    ],
+    "settings": {
+        "files.watcherExclude": {
+            "**/target": true
+        }
+    }
 }
