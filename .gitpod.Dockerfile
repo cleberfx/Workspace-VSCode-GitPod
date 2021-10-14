@@ -31,7 +31,7 @@ RUN  apt-get -q update && \
      rm -rf /var/lib/apt/lists/*
 EXPOSE 6080      
      
-USER gitpod  
+#USER gitpod  
 
 RUN  curl -fsSL https://code-server.dev/install.sh | sh -s -- --dry-run 
 RUN  curl -fsSL https://code-server.dev/install.sh | sh 
